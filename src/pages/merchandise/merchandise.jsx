@@ -107,7 +107,7 @@ function Merchandise() {
 							<div  style={styles.container}>
 								<div class="plus" style={styles.total}>
 									<span class="lol">Total Amount: </span>
-									<span class="lol" style={styles.amount}>{499}/-</span>
+									<span class="lola" style={styles.amount}>{499}/-</span>
 								</div>
 							</div>
 							<div class="merch-btn">{buttonMap[count]}</div>
