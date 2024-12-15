@@ -66,10 +66,10 @@ function Merchandise() {
 	  };
 
 	  const imgarray ={
-		1: "src/assets/customIllustration/oc.png",
-		2: "src/assets/customIllustration/hc.png",
-		3: "src/assets/customIllustration/merch3.jpg",
-		4: "src/assets/customIllustration/exe.png"
+		1: "./src/assets/customIllustration/oc.png",
+		2: "./src/assets/customIllustration/hc.png",
+		3: "./src/assets/customIllustration/merch3.jpg",
+		4: "./src/assets/customIllustration/exe.png"
 	  }
 	  
 	
