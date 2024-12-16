@@ -5,6 +5,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeft,faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import SizeChart from './sizechart.jsx'
 
+import ocImage from '../../assets/merchandise/oc_remove.png';
+import hcImage from '../../assets/merchandise/hc_remove.png';
+import ccImage from '../../assets/merchandise/cc_remove.png';
+import exeImage from '../../assets/merchandise/exe_remove.png';
+
 function Merchandise() {
 
 	const styles = {
@@ -66,12 +71,12 @@ function Merchandise() {
 		4: <RazorpayButton4 />
 	  };
 
-	const imgarray ={
-		1: "../../assets/customIllustration/oc_remove.png",
-		2: "../../assets/customIllustration/hc_remove.png",
-		3: "../../assets/customIllustration/cc._remove.png",
-		4: "../../assets/customIllustration/exe_remove.png"
-	}
+	  const imgarray = {
+		1: ocImage,
+		2: hcImage,
+		3: ccImage,
+		4: exeImage,
+	  };
 	  
 	
 	return (
