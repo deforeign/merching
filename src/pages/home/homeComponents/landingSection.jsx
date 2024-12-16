@@ -4,7 +4,7 @@ import '../homeStyles.css'
 
 import BackgroundFall from '../../../assets/illustration/backgroundFall.png';
 import Soldier from '../../../assets/illustration/soldier.png';
-import SamarLogo from '../../../assets/logo/SamarLogoWhite.png';
+import SamarLogo from '../../../assets/logo/samarLogoWhite.png';
 import SamarIntroText from '../../../assets/customIllustration/samarIntroText.png';
 
 import HoverAudio from '../../../assets/audio/buttonHoverGTA.mp3';
