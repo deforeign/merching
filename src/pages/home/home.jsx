@@ -1,7 +1,7 @@
 import HomeBackground from '../../components/homeBackground.jsx';
 import MatrixBackground from '../../components/matrixBackground.jsx';
 import LandingSection from './homeComponents/landingSection.jsx';
-import ImageSection from './homeComponents/imageSection.jsx';
+import ImageGallery from './homeComponents/imageGallery.jsx';
 
 function Home() {
     return (
@@ -9,7 +9,7 @@ function Home() {
             <HomeBackground />
             <MatrixBackground />
             <LandingSection />
-            <ImageSection />
+            <ImageGallery />
         </>
     );
 }
