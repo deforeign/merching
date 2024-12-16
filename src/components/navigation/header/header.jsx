@@ -25,9 +25,9 @@ function Header() {
                 <NavLink className='font-vermin text-3xl text-white cursor-pointer' to="/">SAMAR</NavLink>
             </div>
 
-            {/* Burger Menu Button */}
+            {/* Hamburger Button */}
             <button
-                className='md:hidden flex flex-col justify-center items-center gap-1 focus:outline-none'
+                className='xl:hidden flex flex-col justify-center items-center gap-1 focus:outline-none'
                 onClick={toggleMenu}
             >
                 <div className='w-6 h-0.5 bg-white'></div>
@@ -35,10 +35,10 @@ function Header() {
                 <div className='w-6 h-0.5 bg-white'></div>
             </button>
 
-            {/* Navigation Links */}
+            {/* Navigation Menu */}
             <div
-                className={`absolute top-[80px] left-0 w-full md:static md:w-auto md:flex-row md:items-center bg-slate-800 bg-opacity-90 md:bg-opacity-0 md:backdrop-blur-none transition-transform duration-300 ${
-                    isMenuOpen ? 'flex flex-col items-center' : 'hidden md:flex'
+                className={`absolute top-[80px] left-0 w-full bg-slate-800 bg-opacity-90 xl:bg-transparent xl:static xl:flex xl:items-center xl:w-auto transition-transform duration-300 ${
+                    isMenuOpen ? 'flex flex-col items-center' : 'hidden xl:flex'
                 }`}
             >
                 <NavLink
