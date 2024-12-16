@@ -46,7 +46,7 @@ function Merchandise() {
             <img src={CricketBackground} alt="Background" className="fixed w-full h-full object-cover" />
 
             <div className="relative flex flex-col justify-evenly items-center pt-16 bg-cover bg-center bg-no-repeat w-full h-full">
-				<div className="heading_merch text-xl md:text-3xl xl:text-4xl mt-20 mb-9 font-vermin text-indigo-200 shadow-lg text-center">
+				<div className="heading_merch text-xl md:text-3xl xl:text-4xl mt-20 mb-9 font-vermin text-white shadow-lg text-center">
 					TEAM MERCHANDISE
 				</div>
 
@@ -74,14 +74,14 @@ function Merchandise() {
 						</div>
 
 						<div className="w-full max-w-[500px] md:w-[400px] xl:w-[500px] mt-6 text-center md:mt-16">
-							<p className="text-xl md:text-4xl font-semibold text-white font-vermin tracking-wider">SAMAR 2025 MERCH</p>
-							<p className="cu-subtext text-lg md:text-2xl font-speedPixel text-white mt-4 text-shadow-md tracking-wider">Fuel your passion for the game!</p>
+							<p className="text-xl md:text-4xl font-semibold text-white font-vermin tracking-wider underline">SAMAR 2025 MERCH</p>
+							<p className="cu-subtext text-lg md:text-2xl font-speedPixel text-violet-200 mt-4 text-shadow-md tracking-wider">Fuel your passion for the game!</p>
 							<div className="cu-special-offer">
-								<p className="cu-special-text text-sm md:text-lg font-speedPixel italic text-white tracking-wider mt-2">It's all about celebrating your team. <br />Wear your pride, live the action!</p>
+								<p className="cu-special-text text-sm md:text-lg font-speedPixel italic text-violet-200 tracking-wider mt-2">It's all about celebrating your team. <br />Wear your pride, live the action!</p>
 							</div>
 
 							<div className="samar-sizes mt-2 md:mt-7 mb-4 flex justify-center">
-								<button onMouseEnter={handleHover} className='mt-4 block border-2 px-8 py-2 border-rose-200 bg-violet-600 text-white text-xs italic font-crossFly rounded-tl-xl rounded-br-xl hover:rounded-lg hover:text-white hover:scale-[.97] transition-all ease-in-out duration-75' onClick={toggleModal} >
+								<button onMouseEnter={handleHover} className='mt-4 block border-2 px-8 py-2 bg-violet-600 text-white text-xs italic font-crossFly rounded-tl-xl rounded-br-xl hover:rounded-lg hover:text-white hover:scale-[.97] transition-all ease-in-out duration-75' onClick={toggleModal} >
 									GET THE RIGHT SIZE <br /> FOR YOU
 								</button>
 							</div>
@@ -98,7 +98,9 @@ function Merchandise() {
 				{isModalOpen && (
 					<div className="modal fixed inset-0 bg-black/50 flex justify-center items-center z-50">
 						<div className="modal-content bg-white p-5 rounded-lg relative">
-							<span className="close-button absolute top-0 right-0 p-2 cursor-pointer" onClick={toggleModal}>&times;</span>
+							<span className="close-button w-[50px] h-[50px] m-5 flex flex-row justify-center items-center text-center absolute top-0 right-0 bg-red-600 hover:bg-red-700 rounded-full cursor-pointer text-white text-3xl hover:text-white transition duration-200" onClick={toggleModal}>
+								&times;
+							</span>
 							<img src={SizeChart} alt="Size Chart" className="size-chart-image w-full max-w-[80vw] h-auto" />
 						</div>
 					</div>
