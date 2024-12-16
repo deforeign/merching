@@ -98,7 +98,7 @@ function Merchandise() {
 				{isModalOpen && (
 					<div className="modal fixed inset-0 bg-black/50 flex justify-center items-center z-50">
 						<div className="modal-content bg-white p-5 rounded-lg relative">
-							<span className="close-button w-[50px] h-[50px] m-5 flex flex-row justify-center items-center text-center absolute top-0 right-0 bg-red-600 hover:bg-red-700 rounded-full cursor-pointer text-white text-3xl hover:text-white transition duration-200" onClick={toggleModal}>
+							<span className="close-button w-[20px] h-[20px] lg:w-[50px] lg:h-[50px] m-5 flex flex-row justify-center items-center text-center absolute top-0 right-0 bg-red-600 hover:bg-red-700 rounded-full cursor-pointer text-white text-3xl hover:text-white transition duration-200" onClick={toggleModal}>
 								&times;
 							</span>
 							<img src={SizeChart} alt="Size Chart" className="size-chart-image w-full max-w-[80vw] h-auto" />
