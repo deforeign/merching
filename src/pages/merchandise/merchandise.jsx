@@ -53,7 +53,7 @@ function Merchandise() {
 				</div>
 
 				<div className="w-screen h-fit p-3 rounded-xl text-white flex flex-row justify-center">
-					<div className="flex flex-col lg:flex-row rounded-3xl md:p-12 border-2 border-blue-800 px-7 pb-14 backdrop-blur-md bg-black/30 box-border md:w-auto md:max-w-7xl md:justify-between md:items-center">
+					<div className="flex flex-col lg:flex-row rounded-3xl md:p-12 border-2 border-blue-800 px-7 pb-14 backdrop-blur lg:backdrop-blur-md bg-black/30 box-border md:w-auto md:max-w-7xl md:justify-between md:items-center">
 						<div className="mid-section flex-1 mb-8 md:mb-0">
 							<img src={imgarray[count]} alt="Merch 1" className="cu-main-image w-full max-w-full h-[350px] md:h-auto rounded-xl object-contain" />
 
