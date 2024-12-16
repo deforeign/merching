@@ -12,6 +12,8 @@ import exeImage from '../../assets/merchandise/exe_remove.png';
 import SizeChart from '../../assets/sizeChart.jpg';
 import CricketBackground from '../../assets/customIllustration/cricketBackground.jpg';
 
+import '../../../globalStyles.css';
+
 function Merchandise() {
     const [count, setCount] = useState(1);
     const [isModalOpen, setIsModalOpen] = useState(false);
