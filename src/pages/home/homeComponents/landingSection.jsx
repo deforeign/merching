@@ -3,10 +3,9 @@ import { useRef } from 'react';
 import '../homeStyles.css'
 
 import BackgroundFall from '../../../assets/illustration/backgroundFall.png';
-import Soldier from '../../../assets/illustration/Soldier.png';
+import Soldier from '../../../assets/illustration/soldier.png';
 import SamarLogo from '../../../assets/logo/SamarLogoWhite.png';
 import SamarIntroText from '../../../assets/customIllustration/samarIntroText.png';
-import AncientScroll from '../../../assets/illustration/ancientScroll_2.png';
 
 import HoverAudio from '../../../assets/audio/buttonHoverGTA.mp3';
 import SwordAnimation from '../../../components/swordAnimation.jsx';
