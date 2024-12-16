@@ -1,35 +1,30 @@
-
-.cu-main{
+.cu-main {
     display: flex;
     flex-direction: column;
-    justify-content: justify-evenly;
+    justify-content: center; /* Use only one justify-content property */
     align-items: center;
-    justify-content: center;
     background-attachment: fixed;
     padding-top: 70px;
-    background-image: url('../../assets/customIllustration/bg11.jpg');
+    background-image: url('../../assets/customIllustration/cricketBackground.jpg');
     background-size: 100%;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background-repeat: no-repeat;
-    background-size: cover; /* Ensures the image covers the entire area */
-    background-position: center; /* Centers the image */
-    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center;
     font-family: "Barlow", sans-serif;
-
 }
-.disc{
 
+
+.disc{
     font-size: 24px;
     display: flex;
     margin-top: 38px;
     margin-left: 20px;
     font-weight: 600;
     color:#D4BEE4;
-
-    
-
 }
+
 .merch-btn{
     margin-top: 12px;
     color: black;
@@ -41,19 +36,23 @@
     margin-bottom: 12px;
     color: #D3EE98;
 }
+
 .samar-sizes{
     margin-top: 10px;
     margin-bottom: 15px;
 }
+
 .plus{
     margin-right: 40px;
     margin-top: 30px;
     justify-content: center;
 }
+
 .sign-right{
     position: relative;
     left: 21.5%;
 }
+
 .sign-left{
     position: relative;
     left: -21.5%;
@@ -63,22 +62,18 @@
     position: absolute;
     margin-left: 5px;
     margin-right: 5px;
-
-
 }
 
 .gameconsole{
     height: 80px;
     width: 80px;;
-
-
 }
 
 .heading_merch{
     font-size: 40px;
     margin-top: 80px;
     margin-bottom: 35px;
-    font-family: crossFly;
+    font-family: VerminVibes;
     color: #D3EE98;
     text-shadow: 2.85px 2.85px 0.532px black;
 }
