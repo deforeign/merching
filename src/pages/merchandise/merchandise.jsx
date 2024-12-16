@@ -5,8 +5,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeft,faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import SizeChart from './sizechart.jsx'
 
-
-
 function Merchandise() {
 
 	const styles = {
@@ -69,10 +67,10 @@ function Merchandise() {
 	  };
 
 	const imgarray ={
-		1: "./src/assets/customIllustration/oc_remove.png",
-		2: "./src/assets/customIllustration/hc_remove.png",
-		3: "./src/assets/customIllustration/cc._remove.png",
-		4: "./src/assets/customIllustration/exe_remove.png"
+		1: "../../assets/customIllustration/oc_remove.png",
+		2: "../../assets/customIllustration/hc_remove.png",
+		3: "../../assets/customIllustration/cc._remove.png",
+		4: "../../assets/customIllustration/exe_remove.png"
 	}
 	  
 	
