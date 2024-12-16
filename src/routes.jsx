@@ -16,6 +16,7 @@ function routes() {
 				<Header />
 				<Routes>
 					<Route path="/" element={<Navigate to="/merchandise" replace />} />
+					<Route path="/home" element={<Home />} />
 					<Route path="/about" element={<About />} />
 					<Route path="/merchandise" element={<Merchandise />} />
 					<Route path="/contact" element={<Contact />} />
