@@ -1,8 +1,7 @@
-import React, { useEffect, useRef } from 'react';
-import HomeBackground from '../../components/homeBackground';
-import MatrixBackground from '../../components/matrixBackground';
-import LandingSection from './homeComponents/landingSection';
-import ImageSection from './homeComponents/imageSection';
+import HomeBackground from 'src/components/homeBackground.jsx';
+import MatrixBackground from 'src/components/matrixBackground.jsx';
+import LandingSection from 'src/pages/home/homeComponents/landingSection.jsx';
+import ImageSection from 'src/pages/home/homeComponents/imageSection.jsx';
 
 function Home() {
     return (
